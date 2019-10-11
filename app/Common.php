@@ -15,56 +15,11 @@
  */
 
 /**
- * Returns a URL for your assets, relative to the applications `/public`
- * directory. EG - `/public/assets`
- *
- * @param  string $file
- * @param  string $path
- *
- * @return string
- */
-function assets_url(string $file, string $path = 'assets')
-{
-    return base_url($path . '/' . $file);
-}
-
-// ----------------------------------------------------------------------------
-
-/**
  * Shopping cart service
  *
  * @return mixed
  */
-function cart()
+function cart(bool $getShared = true)
 {
-    return \Config\Services::cart();
+    return \Config\Services::cart($getShared);
 }
-
-// ----------------------------------------------------------------------------
-
-/**
- * A convenience/compatibility method for logging events through
- * the Log system.
- *
- * Allowed log levels are:
- *  - emergency
- *  - alert
- *  - critical
- *  - error
- *  - warning
- *  - notice
- *  - info
- *  - debug
- *
- * @param string     $level
- * @param string     $message
- * @param array|null $context
- *
- * @return mixed
- */
-function log_message(string $level, string $message, array $context = [])
-{
-    return \Config\Services::logger()->log($level, $message, $context);
-}
-
-// ----------------------------------------------------------------------------
