@@ -1,10 +1,11 @@
 <?php namespace App\Controllers;
 
-class CartExample extends \CodeIgniter\Controller
+class HomeController extends \CodeIgniter\Controller
 {
     public function index()
     {
-        echo view('cart');
+        $data = [ 'cart' => cart() ];
+        echo view('cart', $data);
     }
 
     public function addOne()
