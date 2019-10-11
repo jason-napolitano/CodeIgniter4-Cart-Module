@@ -27,27 +27,11 @@ class Services extends CoreServices
      * @return mixed
      *
      */
-	public static function cart($getShared = true)
-    {
-	    if ($getShared) {
-	        return static::getSharedInstance('cart');
-	    }
-	    return new \App\Libraries\Cart();
-	}
-
-    /**
-     * The Logger class is a PSR-3 compatible Logging class that supports
-     * multiple handlers that process the actual logging.
-     *
-     * @param  bool $getShared
-     *
-     * @return mixed
-     */
-    public static function logger(bool $getShared = true)
+    public static function cart($getShared = true)
     {
         if ($getShared) {
-            return static::getSharedInstance('logger');
+            return static::getSharedInstance('cart');
         }
-        return new \Monolog\Logger(new Logger());
+        return new \App\Libraries\Cart();
     }
 }
