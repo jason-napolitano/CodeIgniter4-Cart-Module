@@ -7,6 +7,7 @@ implement it in CodeIgniter 4. This is a small example of that. This is not trul
  - `app/Common.php` includes a `cart()` function for the cart service
  - The `cart()` service. Registered in `Config\Services`
  - Example view which lays the cart data out as a Bootstrap 4 table
+ - Example controller to demonstrate cart module
 
 ## Installation:
  - Drop into your projects `app` directory. Overwrite `app/Common.php` and `app/Config/Services`, or merge with the existing files if you'd like to use the included service via `$cart = \Config\Services::cart(); ` or `$cart = cart();` .
