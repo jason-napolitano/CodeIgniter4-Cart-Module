@@ -1,6 +1,6 @@
 <?php namespace App\Controllers;
 
-class HomeController extends \CodeIgniter\Controller
+class CartExample extends \CodeIgniter\Controller
 {
     public function index()
     {
