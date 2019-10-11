@@ -36,6 +36,9 @@ More detailed information can be found [here](https://codeigniter.com/user_guide
 
 // Get the total items
 $cart->totalItems();
+
+// Remove an item
+$cart->remove('4166b0e7fc8446e81e16883e9a812db8 ');
    
 // Clear the shopping cart
 $cart->destroy();
