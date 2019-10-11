@@ -34,9 +34,6 @@ More detailed information can be found [here](https://codeigniter.com/user_guide
     'options' => array('Size' => 'L', 'Color' => 'Red')
 ));
 
-// Remove an item from the cart
-$cart->remove('sku_12dddBCD');
-
 // Get the total items
 $cart->totalItems();
    
