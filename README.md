@@ -42,9 +42,6 @@ $cart->destroy();
 
 // Get the cart contents as an array
 $cart->contents();
-
-// Save the cart array to the session
-$cart->saveCart();
 ```
  
 ## License:
