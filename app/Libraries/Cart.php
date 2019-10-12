@@ -9,6 +9,7 @@
      *
      * @copyright  Copyright (c) 2014 - 2017, British Columbia Institute of Technology (http://bcit.ca/)
      * @copyright  Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
+     * @link       https://github.com/jason-napolitano/CodeIgniter4-Cart-Module
      * @link       https://codeigniter.com/user_guide/libraries/cart.html
      * @license    http://opensource.org/licenses/MIT
      * @author     EllisLab Dev Team
