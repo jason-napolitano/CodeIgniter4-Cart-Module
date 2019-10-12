@@ -1,18 +1,18 @@
 # CodeIgniter4-Cart-Module
-A basic port of the codeigniter 3 cart module for CodeIgniter 4. With the CodeIgniter 3 Cart module being officially dropped, I wanted to 
-implement it in CodeIgniter 4. This is a small example of that. This is not truly 'supported' since I just kinda built it on a whim, but feel free to contact me regarding it or offer PR's for any improvements and/or corrections to the existing codebase.
+A basic port of the codeigniter 3 cart module for CodeIgniter 4. With the CodeIgniter 3 Cart module being officially dropped, I wanted to implement it in CodeIgniter 4. This is a small example of that. This is not truly 'supported' since I just kinda built it on a whim, but feel free to contact me regarding it or offer PR's for any improvements and/or corrections to the existing codebase.
 
 ## What's included?
  - The `Cart` Library Class which lives in `App\Libaries`
  - The cart service. Can be alled using `\Config\Services::cart();` or calling the `cart()` function
  - Example view which lays the cart data out as a Bootstrap 4 table
- - Example controller to demonstrate cart library
+ - Example controller to demonstrate the cart libraries usage
 
 ## Installation:
- - Drop into your projects `app` directory. Overwrite `app/Common.php` and `app/Config/Services`, or merge with the existing files if you'd like to use the included service via `$cart = \Config\Services::cart(); ` or `$cart = cart();` .
+ - Drop into your projects `app` directory. Overwrite `app/Common.php` and `app/Config/Services`, or merge with the existing files if you've made any custom changes to these files that you'd like to keep.
  
 ## Usage
-More detailed information can be found [here](https://codeigniter.com/user_guide/libraries/cart.html)
+ - View an example controller in this repo by [going here](https://github.com/jason-napolitano/CodeIgniter4-Cart-Module/blob/master/app/Controllers/CartExample.php)
+ - More detailed information can be found [here](https://codeigniter.com/user_guide/libraries/cart.html)
  ```php
  // Use the cart service
  $cart = cart();
