@@ -9,7 +9,6 @@ A basic port of the codeigniter 3 cart module for CodeIgniter 4. With the CodeIg
  - Drop into your projects `app` directory. Overwrite `app/Common.php` and `app/Config/Services`, or merge with the existing files if you've made any custom changes to these files that you'd like to keep.
  
 ## Usage
- - View an example controller in this repo by [going here](https://github.com/jason-napolitano/CodeIgniter4-Cart-Module/blob/master/app/Controllers/CartExample.php)
  - More detailed information can be found [here](https://codeigniter.com/user_guide/libraries/cart.html)
  ```php
  // Use the cart service
