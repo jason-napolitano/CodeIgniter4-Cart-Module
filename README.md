@@ -1,5 +1,5 @@
 # CodeIgniter4-Cart-Module
-A basic port of the codeigniter 3 cart module for CodeIgniter 4. With the CodeIgniter 3 Cart module being officially dropped, I wanted to implement it in CodeIgniter 4. This is a small example of that. This is not truly 'supported' since I just kinda built it on a whim, but feel free to contact me regarding it or offer PR's for any improvements and/or corrections to the existing codebase.
+A basic port of the codeigniter 3 cart module for CodeIgniter 4. With the CodeIgniter 3 Cart module being officially dropped, I wanted to implement it in CodeIgniter 4. This is a small example of that. This is not truly 'supported' since I just kinda threw it together on a whim for a project that arose, but feel free to contact me regarding it or offer PR's for any improvements and/or corrections to the existing codebase.
 
 ## What's included?
  - The `Cart` Library Class which lives in `App\Libaries`
