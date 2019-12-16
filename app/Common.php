@@ -15,7 +15,9 @@
  */
 
 /**
- * Shopping cart service
+ * Helper function for the shopping cart service
+ *
+ * @var bool $getShared Return a shared service instance?
  *
  * @return mixed
  */
