@@ -3,7 +3,8 @@
     use Config\Services;
 
     /**
-     * Shopping Cart Class
+     * The Cart class is a basic port of the CodeIgniter 3 cart module for 
+     * CodeIgniter 4.
      *
      * @package    App\Libraries
      *
