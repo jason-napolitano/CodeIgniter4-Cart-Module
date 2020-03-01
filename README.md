@@ -28,6 +28,7 @@ A basic port of the codeigniter 3 cart module for CodeIgniter 4. With the CodeIg
  
  // Update an array of values
  $cart->update(array(
+    'rowid' => 'dsfadf adf asdfasldfkjsdfjasd9f0809dfasdf',
     'id'      => 'sku_1234ABCD',
     'qty'     => 3,
     'price'   => '24.89',
