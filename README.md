@@ -12,7 +12,9 @@ A basic port of the codeigniter 3 cart module for CodeIgniter 4. With the CodeIg
  - More detailed information can be found [here](https://codeigniter.com/user_guide/libraries/cart.html)
  ```php
  // Use the cart service. You can call it in two ways:
- // $cart = \Config\Services::cart() OR cart()
+ // $cart = \Config\Services::cart() 
+ // - OR -
+ // cart()
  
  // For this example, we'll use the helper function
  $cart = cart();
