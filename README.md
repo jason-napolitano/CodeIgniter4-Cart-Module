@@ -3,7 +3,7 @@ A basic port of the codeigniter 3 cart module for CodeIgniter 4. With the CodeIg
 
 ## What's included?
  - The `Cart` Library Class which lives in `App\Libaries`
- - The cart service. Can be called using `\Config\Services::cart();` or calling the `cart()` function
+ - The cart service. Can be called using the `cart()` function
 
 ## Installation:
  - Drop into your projects `app` directory. Overwrite `app/Common.php` and `app/Config/Services.php`, or merge with the existing files if you've made any custom changes to these files that you'd like to keep.
