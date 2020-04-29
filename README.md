@@ -11,12 +11,7 @@ A basic port of the codeigniter 3 cart module for CodeIgniter 4. With the CodeIg
 ## Usage
  - More detailed information can be found [here](https://codeigniter.com/userguide3/libraries/cart.html)
  ```php
- // Use the cart service. You can call it in two ways:
- // $cart = \Config\Services::cart() 
- // - OR -
- // $cart = cart()
- 
- // For this example, we'll use the helper function
+ // Call the cart service using the helper function
  $cart = cart();
  
  // Insert an array of values
