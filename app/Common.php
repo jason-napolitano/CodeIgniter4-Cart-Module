@@ -17,11 +17,9 @@
 /**
  * Helper function for the shopping cart service
  *
- * @var bool $getShared Return a shared service instance?
- *
- * @return mixed
+ * @return \Config\Services::cart()
  */
-function cart(bool $getShared = true)
+function cart()
 {
-    return \Config\Services::cart($getShared);
+    return \Config\Services::cart();
 }
