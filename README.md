@@ -6,6 +6,10 @@ it in CodeIgniter 4. This is a small example of that. This is not truly
 that arose, but feel free to contact me regarding it or offer PR's for 
 any improvements and/or corrections to the existing codebase.
 
+More detailed information can be found [here](https://codeigniter.com/userguide3/libraries/cart.html). Please
+note that the documentation is for the CodeIgniter 3 library but the fundamentals and inner workings of the 
+library are still the same since this is a direct port over to CodeIgniter 4.
+
 ## Installation:
  - Install via composer `composer install jason-napolitano/codeigniter4-cart-module`
  - Add it to the `$psr4` array in `app/Config/Autoload.php`:
@@ -18,7 +22,6 @@ $psr4 = [
 ``` 
   
 ## Usage
- - More detailed information can be found [here](https://codeigniter.com/userguide3/libraries/cart.html)
  ```php
  // Call the cart service using the helper function
  $cart = \Config\Services::cart();
