@@ -7,7 +7,16 @@ that arose, but feel free to contact me regarding it or offer PR's for
 any improvements and/or corrections to the existing codebase.
 
 ## Installation:
- - Install via composer `composer install jason-napolitano/codeigniter4-cart-module` 
+ - Install via composer `composer install jason-napolitano/codeigniter4-cart-module`
+ - Add it to the `$psr4` array in `app/Config/Autoload.php`:
+ ```php
+$psr4 = [
+    'CodeIgniterCart' => ROOTPATH . 'vendor/jason-napolitano/codeigniter4-cart-module/src'
+
+    // OTHER PSR4 ENTRIES
+];
+``` 
+  
 ## Usage
  - More detailed information can be found [here](https://codeigniter.com/userguide3/libraries/cart.html)
  ```php
