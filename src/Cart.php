@@ -1,7 +1,5 @@
 <?php namespace CodeIgniterCart {
 
-    use Config\Services;
-
     /**
      * The Cart class is a basic port of the CodeIgniter 3 cart module for 
      * CodeIgniter 4.
