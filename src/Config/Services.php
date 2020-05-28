@@ -1,4 +1,4 @@
-<?php namespace Config;
+<?php namespace CodeIgniterCart\Config;
 
 use CodeIgniter\Config\Services as CoreServices;
 
@@ -32,6 +32,6 @@ class Services extends CoreServices
         if ($getShared) {
             return static::getSharedInstance('cart');
         }
-        return new \App\Libraries\Cart();
+        return new \JasonN\Cart\Cart();
     }
 }
