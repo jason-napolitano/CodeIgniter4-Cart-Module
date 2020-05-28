@@ -13,6 +13,12 @@ any improvements and/or corrections to the existing codebase.
  ```php
  // Call the cart service using the helper function
  $cart = \Config\Services::cart();
+
+// You can also call the library directly. Just take note that doing this 
+// will remove any access to the shared service instance that CodeIgniter 
+// provides and this will operate as a simple PHP class.
+$cart = new \CodeIgniterCart\Cart();
+
  
  // Insert an array of values
  $cart->insert(array(
