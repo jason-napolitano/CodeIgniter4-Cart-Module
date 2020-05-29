@@ -1,10 +1,11 @@
 # CodeIgniter4-Cart-Module
-A basic port of the CodeIgniter 3 cart module for CodeIgniter 4. With the 
-CodeIgniter 3 Cart module being officially dropped, I wanted to implement 
-it in CodeIgniter 4. This is a small example of that. This is not truly 
-'supported' since I just kinda threw it together on a whim for a project 
-that arose, but feel free to contact me regarding it or offer PR's for 
-any improvements and/or corrections to the existing codebase.
+This is a `composer` installable, CodeIgniter 4 module that is nearly a direct port of the Codeigniter 3 Cart Library Class.
+Of course, this has been mildly updated and is consistent with the new version of the framework.
+
+This means that this library, instead of just being a _class_ that you can `use` in your projects
+has been updated with Namespaces, been refactored to adhere to the CodeIgniter style guide 
+and also has been built to use CodeIgniter 4's Service Container to allow for a shared Cart instance 
+across your application.  
 
 More detailed information can be found [here](https://codeigniter.com/userguide3/libraries/cart.html). Please
 note that the documentation is for the CodeIgniter 3 library but the fundamentals and inner workings of the 
