@@ -32,6 +32,6 @@ class Services extends CoreServices
         if ($getShared) {
             return static::getSharedInstance('cart');
         }
-        return new \JasonN\Cart\Cart();
+        return new \CodeIgniterCart\Cart();
     }
 }
