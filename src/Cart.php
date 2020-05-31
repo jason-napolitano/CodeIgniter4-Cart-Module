@@ -1,11 +1,9 @@
 <?php namespace CodeIgniterCart {
 
     /**
-     * The Cart class is a basic port of the CodeIgniter 3 cart module for 
-     * CodeIgniter 4.
+     * The Cart class is a basic port of the CodeIgniter 3 cart module for CodeIgniter 4.
      *
-     * @package    App\Libraries
-     *
+     * @package    CodeIgniterCart
      * @copyright  Copyright (c) 2014 - 2017, British Columbia Institute of Technology (http://bcit.ca/)
      * @copyright  Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
      * @link       https://github.com/jason-napolitano/CodeIgniter4-Cart-Module
