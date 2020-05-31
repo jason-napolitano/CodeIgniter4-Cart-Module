@@ -16,6 +16,8 @@ require_once SYSTEMPATH . 'Config/Services.php';
  * that you might need. An example has been included with the general
  * method format you should use for your service methods. For more examples,
  * see the core Services file at system/Config/Services.php.
+ *
+ * @package CodeIgniterCart\Config
  */
 class Services extends CoreServices
 {
