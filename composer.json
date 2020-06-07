@@ -8,7 +8,7 @@
   "require": {
     "php": ">=7.2"
   },
-  "require-dev": {
+  "require": {
     "codeigniter4/framework": "^4.0.3"
   },
   "autoload": {
