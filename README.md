@@ -9,7 +9,7 @@ across your application.
 
 More detailed information can be found [here](https://codeigniter.com/userguide3/libraries/cart.html). Please
 note that the documentation is for the CodeIgniter 3 library but the fundamentals and inner workings of the 
-library are still the same since this is a direct port over to CodeIgniter 4.
+library are still nearly identical.
 
 ## Installation:
  - Install via composer `composer install jason-napolitano/codeigniter4-cart-module`
