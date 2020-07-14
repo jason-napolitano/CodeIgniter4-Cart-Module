@@ -2,7 +2,7 @@
 This is a `composer` installable, CodeIgniter 4 module that is nearly a direct port of the Codeigniter 3 Cart Library Class.
 Of course, this has been mildly updated and is consistent with the new version of the framework.
 
-This means that this library, instead of just being a _class_ that you can `use` in your projects
+This means that this library, instead of just being a _class_ that you can use in your projects, it
 has been updated with Namespaces, been refactored to adhere to the CodeIgniter style guide 
 and also has been built to use CodeIgniter 4's Service Container to allow for a shared Cart instance 
 across your application.  
