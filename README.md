@@ -2,14 +2,16 @@
 This is a `composer` installable, CodeIgniter 4 module that is nearly a direct port of the Codeigniter 3 Cart Library Class.
 Of course, this has been mildly updated and is consistent with the new version of the framework.
 
-This means that this library, instead of just being a _class_ that you can use in your projects, it
-has been updated with Namespaces, been refactored to adhere to the CodeIgniter style guide 
+This means that instead of just being a _class_ that you can use in your projects, this library
+has been updated with Namespaces, has been refactored to adhere to the CodeIgniter style guide 
 and also has been built to use CodeIgniter 4's Service Container to allow for a shared Cart instance 
 across your application.  
 
-More detailed information can be found [here](https://codeigniter.com/userguide3/libraries/cart.html). Please
+More detailed documentation can be found [here](https://codeigniter.com/userguide3/libraries/cart.html). Please
 note that the documentation is for the CodeIgniter 3 library but the fundamentals and inner workings of the 
-library are still nearly identical.
+library are still identical. The most notable changes are how you use it (read below) and to return 
+the total items in your cart, you now call the `totalItems()` method instead of `total_items()` like in the
+CodeIgniter 3 library.
 
 ## Installation:
  - Install via composer `composer install jason-napolitano/codeigniter4-cart-module`
@@ -46,7 +48,7 @@ $psr4 = [
     'options' => array('Size' => 'L', 'Color' => 'Red')
 ));
 
-// Get the total items
+// Get the total items. Formerly known as total_items()
 $cart->totalItems();
 
 // Remove an item using its `rowid`
