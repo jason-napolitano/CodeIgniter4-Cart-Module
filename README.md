@@ -26,7 +26,7 @@ $psr4 = [
   
 ## Usage
  ```php
- // Call the cart service using the helper function
+ // Call the cart service
  $cart = \Config\Services::cart();
  
  // Insert an array of values
