@@ -10,8 +10,7 @@ across your application.
 More detailed documentation can be found [here](https://codeigniter.com/userguide3/libraries/cart.html). Please
 note that the documentation is for the CodeIgniter 3 library but the fundamentals and inner workings of the 
 library are still identical. The most notable changes are how you use it (read below) and to return 
-the total items in your cart, you now call the `totalItems()` method instead of `total_items()` like in the
-CodeIgniter 3 library.
+the total items in your cart, you now call the `$cart->totalItems()` instead of `$cart->total_items()`.
 
 ## Installation:
  - Install via composer `composer install jason-napolitano/codeigniter4-cart-module`
