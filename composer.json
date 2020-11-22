@@ -4,7 +4,7 @@
   "description": "A basic port of the codeigniter 3 cart module for CodeIgniter 4.",
   "homepage": "https://github.com/jason-napolitano/CodeIgniter4-Cart-Module",
   "license": "MIT",
-  "version": "1.0.0",
+  "version": "1.1",
   "require": {
     "php": ">=7.2"
   },
