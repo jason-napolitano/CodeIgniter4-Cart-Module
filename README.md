@@ -1,19 +1,19 @@
 # CodeIgniter4-Cart-Module
-This is a `composer` installable, CodeIgniter 4 module that is nearly a direct port of the Codeigniter 3 Cart Library Class.
-Of course, this has been mildly updated and is consistent with the new version of the framework.
-
-This means that instead of just being a _class_ that you can use in your projects, this library
-has been updated with Namespaces, has been refactored to adhere to the CodeIgniter style guide 
-and also has been built to use CodeIgniter 4's Service Container to allow for a shared Cart instance 
-across your application.  
-
-More detailed documentation can be found [here](https://codeigniter.com/userguide3/libraries/cart.html). Please
-note that the documentation is for the CodeIgniter 3 library but the fundamentals and inner workings of the 
-library are still identical. The most notable changes are how you use it (read below) and to return 
-the total items in your cart, you now call `$cart->totalItems()` instead of `$this->cart->total_items()`.
-
-Please take note that there are no tests for this package since it is just a port from an existing Codeigniter library and works 
-just the same.
+> This is a `composer` installable, CodeIgniter 4 module that is nearly a direct port of the Codeigniter 3 Cart Library Class.
+> Of course, this has been mildly updated and is consistent with the new version of the framework.
+> 
+> This means that instead of just being a _class_ that you can use in your projects, this library
+> has been updated with Namespaces, has been refactored to adhere to the CodeIgniter style guide 
+> and also has been built to use CodeIgniter 4's Service Container to allow for a shared Cart instance 
+> across your application.  
+> 
+> More detailed documentation can be found [here](https://codeigniter.com/userguide3/libraries/cart.html). Please
+> note that the documentation is for the CodeIgniter 3 library but the fundamentals and inner workings of the 
+> library are still identical. The most notable changes are how you use it (read below) and to return 
+> the total items in your cart, you now call `$cart->totalItems()` instead of `$this->cart->total_items()`.
+> 
+> Please take note that there are no tests for this package since it is just a port from an existing Codeigniter library and works 
+> just the same.
 
 ## Installation:
  - Install via composer `composer install jason-napolitano/codeigniter4-cart-module`
