@@ -12,6 +12,9 @@ note that the documentation is for the CodeIgniter 3 library but the fundamental
 library are still identical. The most notable changes are how you use it (read below) and to return 
 the total items in your cart, you now call `$cart->totalItems()` instead of `$this->cart->total_items()`.
 
+Please take note that there are no tests for this package since it is just a port from an existing Codeigniter library and works 
+just the same.
+
 ## Installation:
  - Install via composer `composer install jason-napolitano/codeigniter4-cart-module`
  - Add it to the `$psr4` array in `app/Config/Autoload.php`:
