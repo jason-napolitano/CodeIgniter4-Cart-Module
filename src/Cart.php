@@ -11,7 +11,6 @@
 * @license    http://opensource.org/licenses/MIT
 * @author     EllisLab Dev Team
 * @since      1.0.0
-* @deprecated 3.0.0
 */
 class Cart
 {
