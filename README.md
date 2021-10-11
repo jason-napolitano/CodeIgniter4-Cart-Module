@@ -16,7 +16,7 @@
 > just the same.
 
 ## Installation:
- - Install via composer `composer install jason-napolitano/codeigniter4-cart-module`
+ - Install via composer `composer require jason-napolitano/codeigniter4-cart-module`
  - Add it to the `$psr4` array in `app/Config/Autoload.php`:
  ```php
 $psr4 = [
