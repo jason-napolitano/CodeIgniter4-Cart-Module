@@ -9,7 +9,7 @@
     "php": ">=7.2"
   },
   "require": {
-    "codeigniter4/framework": "^4.1.2"
+    "codeigniter4/framework": "^4.1.4"
   },
   "autoload": {
     "psr-4": {
