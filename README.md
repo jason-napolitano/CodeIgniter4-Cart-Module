@@ -12,8 +12,8 @@
 > library are still identical. The most notable changes are how you use it (read below) and to return 
 > the total items in your cart, you now call `$cart->totalItems()` instead of `$this->cart->total_items()`.
 > 
-> Please take note that there are no tests for this package since it is just a port from an existing Codeigniter library and works 
-> just the same.
+> Please take note that there are no tests for this package, nor is it officially supported since it is just a port from
+> an existing Codeigniter library and works exactly the same.
 
 ## Installation:
  - Install via composer `composer require jason-napolitano/codeigniter4-cart-module`
@@ -66,7 +66,7 @@ $cart->contents();
 ## License:
  MIT License
 
-Copyright (c) 2023 Jason Napolitano
+Copyright (c) 2025 Jason Napolitano
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
